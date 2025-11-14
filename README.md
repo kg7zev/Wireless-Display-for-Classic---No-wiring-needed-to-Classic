@@ -1,0 +1,2 @@
+# Wireless-Display-for-Classic---No-wiring-needed-to-Classic
+First time coding, but it works!  Wirelessly shows "State of Charge", "Wbjr" Amps, &amp; PV Watts. How it works: If your Classic is connected to the internet via an Ethernet cable and you have set it to an assigned IP. This setup will connect to your wifi, then to the classic, read the Modbus data, then display it on the OLED screen and serial output.
