@@ -3,7 +3,7 @@ This project, wirelessly connects to the Midnite Classic and displays "State of 
 
 The nice thing is, all you need to do to the Classic is to connect your Classic to the internet with a Ethernet cable and set up a static IP address for it. If you are already using the "Classic Monitor" app or something similar, you probably allready did this.
 
-![Image of Project](Image\ProjectIMG.jpg)
+![Image of Project](ProjectIMG.jpg)
 
 # How it works: 
 If your Classic is connected to the internet via an Ethernet cable and you have already assigned it a static IP. This setup will: 
@@ -27,5 +27,6 @@ IPAddress remote(192,168,0,96); // Classic IP ***** CHANGE THIS TO YOURS****
 
 
 Feel free to email me at kg7zev@gmail.com with any questions. I plan on replacing the screen with a bigger 2.8" 240x320 OLED display. 
+
 
 Also, while this board is connected to the Classic, you can not use any other software to connect to it such as the "Classic Monitor" app. However, the Midnite Solar "MyMidnite" website is unaffected. This doesn't bother me since I only use the app when setting up pannels or troubleshooting something and I really like having a remote display that I can mount anywhere!
