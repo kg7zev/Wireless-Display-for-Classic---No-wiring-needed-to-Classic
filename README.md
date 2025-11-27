@@ -3,7 +3,7 @@ This project, wirelessly connects to the Midnite Classic and displays "State of 
 
 The nice thing is, all you need to do to the Classic is **connect your Classic to the internet with an Ethernet cable** and set up a static IP address for it on your router. If you are already using the "Classic Monitor" app or something similar, you probably allready did this.
 
-![Image of Project](Image\ProjectIMG2.jpg)
+![Image of Project](ProjectIMG2.jpg)
 
 # How it works: 
 If your Classic is connected to the internet via an Ethernet cable and you have already assigned it a static IP. This setup will: 
@@ -70,4 +70,5 @@ The problem that can occur is if the Classic does not go into float for a couple
 ### To fix this issue I will add a relay module to the D32 for starting the generator and I'm going to explore a couple different alternatives for obtaining a SOC% listed below:
 - 1 use the modbus data to calculate a secondary SOC% that will act as a backup.
 - 2 connect the D32 board to the BMS in my Rolls Lithium batteries via bluetooth to read the SOC% provided by the batteries using their factory bluetooth connectivity. This will be the most accurate but also the hardest since Rolls only offers a closed source phone app to read this data.
+
 
